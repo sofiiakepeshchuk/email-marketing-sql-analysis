@@ -55,5 +55,5 @@ The analysis is based on multiple tables:
 ---
 
 ## Project File
-See the SQL code here:  
- `email_analysis.sql`
+View the SQL code:  
+👉 [Open SQL file](./email_analysis.sql)
