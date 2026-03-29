@@ -1,59 +1,68 @@
-# Email Marketing SQL Analysis
+# Email Marketing Analytics (SQL Project)
 
-## Project Overview
-This project focuses on analyzing email marketing performance using SQL.  
-The goal was to combine data from multiple sources and calculate key engagement metrics.
+## Overview
+This project analyzes email marketing performance using SQL by combining multiple data sources into a unified dataset.
+
+The goal is to evaluate user engagement and identify top-performing countries based on email activity.
 
 ---
 
 ## Tools & Technologies
 - SQL (BigQuery)
-- Data aggregation
-- Window functions
+- JOIN, UNION ALL
 - CTE (Common Table Expressions)
+- Window Functions (RANK)
+- Data Aggregation (GROUP BY)
 
 ---
 
-## Dataset
+## Data Sources
 The analysis is based on multiple tables:
-- `account`
-- `account_session`
-- `session`
-- `session_params`
-- `email_sent`
-- `email_open`
-- `email_visit`
+- account
+- account_session
+- session
+- session_params
+- email_sent
+- email_open
+- email_visit
 
 ---
 
-## Key Tasks
-- Combined data from multiple sources using JOIN and UNION ALL  
-- Created a SQL view for structured analysis  
-- Aggregated data by date, country, and user attributes  
+## Key Steps
+- Combined user, session, and email data into a single analytical dataset  
+- Created a SQL view to simplify analysis  
 - Calculated key metrics:
-  - sent emails  
-  - opened emails  
-  - visited emails  
-- Ranked countries using window functions (RANK)  
-
----
-
-## Results
-- Identified top-performing countries based on:
   - number of accounts  
-  - email activity  
-- Built a scalable SQL query structure using CTEs  
+  - emails sent  
+  - emails opened  
+  - email visits  
+- Aggregated data by country and user segments  
+- Ranked countries by performance using window functions  
 
 ---
 
-## Key Skills Demonstrated
+## Insights
+- Identified top countries with the highest email engagement  
+- Compared user activity across different segments  
+- Built a scalable SQL structure for further analysis  
+
+---
+
+## Skills Demonstrated
 - Writing complex SQL queries  
-- Data cleaning and transformation  
+- Data modeling and transformation  
 - Analytical thinking  
-- Working with large datasets  
+- Working with relational databases  
 
 ---
+
+## Business Value
+This analysis helps marketing teams:
+- understand user engagement  
+- optimize email campaigns  
+- focus on high-performing regions
+
+---  
 
 ## Project File
-View the SQL code:  
-👉 [Open SQL file](./email_analysis.sql)
+[Open SQL file](./email_analysis.sql)
