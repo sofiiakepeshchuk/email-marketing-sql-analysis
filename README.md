@@ -42,9 +42,9 @@ The analysis is based on multiple tables:
 ---
 
 ## Insights
-- Identified top countries with the highest email engagement  
-- Compared user activity across different segments  
-- Built a scalable SQL structure for further analysis  
+- Identified top-performing countries based on email engagement  
+- Analyzed email campaign effectiveness using open and visit rates  
+- Compared performance across different user segments   
 
 ---
 
@@ -57,10 +57,7 @@ The analysis is based on multiple tables:
 ---
 
 ## Business Value
-This analysis helps marketing teams:
-- understand user engagement  
-- optimize email campaigns  
-- focus on high-performing regions
+This analysis helps evaluate email campaign performance, identify high-performing segments, and optimize marketing strategies.
 
 ---  
 
